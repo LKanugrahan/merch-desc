@@ -21,7 +21,7 @@ const ModalDetail = ({ name, handleName, data }: Props) => {
       size="lg"
       open={name === data.name}
       handler={handleName}
-      className=" absolute sm:relative bottom-0 sm:p-4 pb-20 pt-4 px-4 w-screen max-w-full h-screen m-0 rounded-b-none rounded-t-3xl sm:rounded-2xl"
+      className=" absolute sm:relative bottom-0 sm:p-4 pb-10 pt-4 px-4 w-screen sm:w-fit max-w-full h-3/4 sm:h-fit m-0 rounded-none sm:rounded-2xl"
       dismiss={{ enabled: false }}
       animate={{ mount: { y: 0 }, unmount: { y: 100 } }}
     >
@@ -42,7 +42,7 @@ const ModalDetail = ({ name, handleName, data }: Props) => {
           alt={data.name}
           className="object-contain w-52 h-w-52"
         />
-        <div className="overflow-auto h-96 sm:h-fit p-2">
+        <div className="overflow-auto h-56 sm:h-fit p-2">
           <Typography className="font-poppins font-normal text-base text-black text-justify">
             {data.id}
           </Typography>
