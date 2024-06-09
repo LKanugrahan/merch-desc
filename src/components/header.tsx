@@ -12,6 +12,7 @@ import { languageData } from "@/static/data";
 import instagram from "@/assets/instagram.png";
 import tokopedia from "@/assets/tokopedia.png";
 import Image from "next/image";
+import pundiCraftLogo from "@/assets/pundiCraftLogo.jpg";
 
 interface Props {
   language: string;
@@ -20,10 +21,20 @@ interface Props {
 
 const Header = ({ language, setLanguage }: Props) => {
   return (
-    <div className="sm:relative w-full sm:w-3/4 flex flex-col items-center gap-2">
-      <div className="font-poppins font-semibold text-4xl sm:text-5xl lg:text-7xl text-transparent bg-gradient-to-r bg-clip-text from-white to-[#cc1e28] to-[5%]">
-        Pundi Craft
+    <div className="md:relative w-full sm:w-3/4 flex flex-col items-center gap-2">
+      <div className="flex justify-center items-center gap-2">
+        <div className="font-poppins font-semibold text-4xl sm:text-5xl lg:text-7xl text-transparent bg-gradient-to-r bg-clip-text from-white to-[#cc1e28] to-[5%]">
+          Pundi Craft
+        </div>
+        <Image
+          src={pundiCraftLogo}
+          alt="pundiCraftLogo"
+          width={100}
+          height={100}
+          className="rounded-full w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16"
+        />
       </div>
+
       <Typography className="font-poppins font-normal text-black text-base text-center">
         {language === "en"
           ? "Aspiration, Determination, and Creation from Within, Rooted in Indonesian Culture"
@@ -43,7 +54,7 @@ const Header = ({ language, setLanguage }: Props) => {
             <Image src={tokopedia} alt="tokopedia" width={30} />
           </a>
           <Menu placement="bottom-end">
-            <MenuHandler className="sm:!absolute top-0 sm:-right-10 xl:right-0 p-0 bg-transparent flex gap-1 shadow-none hover:shadow-none">
+            <MenuHandler className="md:!absolute top-0 md:-right-10 xl:right-0 p-0 bg-transparent flex gap-1 shadow-none hover:shadow-none">
               <Button>
                 <FiGlobe size={30} color="black" />
                 <Typography className="font-poppins font-semibold text-black text-xl text-center uppercase">
