@@ -43,7 +43,7 @@ const ModalDetail = ({ name, handleName, data, language }: Props) => {
           alt={data.name}
           className="object-contain w-72 lg:w-96"
         />
-        <div className="overflow-auto h-96 sm:h-fit p-2">
+        <div className="overflow-auto h-80 sm:h-fit p-2">
           <Typography className="font-poppins font-normal text-base text-black text-justify">
             {language === "en" ? data.en : data.id}
           </Typography>

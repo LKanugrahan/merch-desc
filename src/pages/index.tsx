@@ -23,21 +23,6 @@ export default function Home() {
       <Header language={language} setLanguage={setLanguage} />
       <div className="flex flex-col gap-2">
         <div className="flex flex-col justify-center items-center gap-2">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Typography className="font-poppins font-normal text-black text-base text-center">
-              {language === "en"
-                ? "For more details, check it out!"
-                : "Untuk detail lebih lanjut, cek aja!"}
-            </Typography>
-            <div className="flex gap-2">
-              <a href={"https://www.instagram.com/pundicraft/"} target="_blank">
-                <Image src={instagram} alt="instagram" width={30} />
-              </a>
-              <a href={"https://www.tokopedia.com/pundicraft"} target="_blank">
-                <Image src={tokopedia} alt="tokopedia" width={30} />
-              </a>
-            </div>
-            </div>
             <div className="flex gap-2 flex-wrap">
               <Button size="sm"
                 className="font-poppins font-normal text-black text-base normal-case bg-white"
