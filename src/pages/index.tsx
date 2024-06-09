@@ -2,20 +2,30 @@ import CardItem from "@/components/cardItem";
 import ModalDetail from "@/components/modalDetail";
 import { data } from "@/static/data";
 import { Button } from "@material-tailwind/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "@/components/header";
 
 export default function Home() {
   const [name, setName] = useState<string>("");
   const [language, setLanguage] = useState<string>("en");
   const [category, setCategory] = useState<string>("all");
-  const uniqueCategories = data.map(value=>value.category).filter((item, index) => data.map(value=>value.category).indexOf(item) === index);
+  const uniqueCategories = data
+    .map((value) => value.category)
+    .filter(
+      (item, index) =>
+        data.map((value) => value.category).indexOf(item) === index
+    );
   const handleName = (text: string) => {
     setName(text);
   };
   const handleCategory = (text: string) => {
     setCategory(text);
   };
+  useEffect(() => {
+    if (localStorage.getItem("language") === null) {
+      localStorage.setItem("language", language);
+    } else{setLanguage(localStorage.getItem('language') as string)}
+  }, []);
   return (
     <main className="relative flex flex-col gap-10 items-center p-4 sm:p-10">
       <Header language={language} setLanguage={setLanguage} />

@@ -23,16 +23,16 @@ const Header = ({ language, setLanguage }: Props) => {
   return (
     <div className="md:relative w-full sm:w-3/4 flex flex-col items-center gap-2">
       <div className="flex justify-center items-center gap-2">
-        <div className="font-poppins font-semibold text-4xl sm:text-5xl lg:text-7xl text-transparent bg-gradient-to-r bg-clip-text from-white to-[#cc1e28] to-[5%]">
-          Pundi Craft
-        </div>
-        <Image
+      <Image
           src={pundiCraftLogo}
           alt="pundiCraftLogo"
           width={100}
           height={100}
           className="rounded-full w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16"
         />
+        <div className="font-poppins font-semibold text-4xl sm:text-5xl lg:text-7xl text-transparent bg-gradient-to-r bg-clip-text from-white to-[#cc1e28] to-[5%]">
+          Pundi Craft
+        </div>
       </div>
 
       <Typography className="font-poppins font-normal text-black text-base text-center">
@@ -69,6 +69,7 @@ const Header = ({ language, setLanguage }: Props) => {
                   <MenuItem
                     onClick={() => {
                       setLanguage(value);
+                      localStorage.setItem('language',value)
                     }}
                     key={index}
                     className="font-poppins font-semibold text-black text-xl text-center uppercase p-0 w-fit bg-transparent focus:bg-transparent hover:bg-transparent active:bg-transparent focus:text-black hover:text-black active:text-black"
