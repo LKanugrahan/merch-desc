@@ -16,7 +16,7 @@ const CardItem = ({data,handleName}:Props) => {
     <Image
       src={data.image}
       alt={data.name}
-      className="object-contain w-40 md:w-64 h-40 md:h-64"
+      className="object-contain w-40 md:w-52 h-40 md:h-52"
     />
     <Typography className="font-poppins  font-semibold text-lg text-black text-center">
       {data.name}
