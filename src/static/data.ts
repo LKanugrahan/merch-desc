@@ -7,7 +7,7 @@ export const data = [
     name: "Gigi Balang",
     image: gigiBalang,
     id: "Gigi Balang merupakan ornamen arsitektur pada rumah Betawi. Berbentuk segitiga terbalik yang berjajar, terbuat dari kayu pada bagian lisplang rumah adat Betawi. Filosofi dari Ornamen Gigi Balang adalah sebagai perlambang gagah, kokoh dan berwibawa.",
-    en: "",
+    en: "Gigi Balang is an architectural ornament found in Betawi houses. It consists of a series of inverted triangles made of wood, placed along the fascia board of traditional Betawi homes. The philosophy behind the Gigi Balang ornament symbolizes strength, sturdiness, and authority.",
   },
   {
     name: "Ondel Ondel",
@@ -28,3 +28,5 @@ export const data = [
     en: "",
   },
 ];
+
+export const languageData=['id','en']

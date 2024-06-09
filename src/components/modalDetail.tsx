@@ -13,9 +13,10 @@ interface Props {
   name: string;
   handleName: (text: string) => void;
   data: Data;
+  language: string;
 }
 
-const ModalDetail = ({ name, handleName, data }: Props) => {
+const ModalDetail = ({ name, handleName, data, language }: Props) => {
   return (
     <Dialog
       size="lg"
@@ -44,7 +45,7 @@ const ModalDetail = ({ name, handleName, data }: Props) => {
         />
         <div className="overflow-auto h-56 sm:h-fit p-2">
           <Typography className="font-poppins font-normal text-base text-black text-justify">
-            {data.id}
+            {language === "en" ? data.en : data.id}
           </Typography>
         </div>
       </DialogBody>
