@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap justify-center gap-4">
           {data.map((data, index) => (
-            <div key={index} className="w-full sm:w-fit">
+            <div key={index} className="w-fit sm:w-fit">
               <CardItem data={data} handleName={handleName} />
               <ModalDetail
                 name={name}
