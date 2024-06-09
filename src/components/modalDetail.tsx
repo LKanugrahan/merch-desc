@@ -41,7 +41,7 @@ const ModalDetail = ({ name, handleName, data, language }: Props) => {
         <Image
           src={data.image}
           alt={data.name}
-          className="object-contain w-64 lg:w-96"
+          className="object-contain w-56 lg:w-96"
         />
         <div className="overflow-auto h-56 sm:h-fit p-2">
           <Typography className="font-poppins font-normal text-base text-black text-justify">

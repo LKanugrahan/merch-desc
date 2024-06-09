@@ -105,7 +105,7 @@ export const data = [
     name: "Burung Kipasan Belang",
     category: "fauna",
     image: burungKipasanBelang,
-    id: "Kipasan belang adalah spesies burung dari keluarga Rhipiduridae, dari genus Rhipidura. Burung ini merupakan jenis burung pemakan serangg dan memiliki habitat di daerah terbuka, hutan sekunder, hutan mangrove, pekarangan. tersebar sampai ketinggian 1.500 mdpl.",
+    id: "Kipasan belang adalah spesies burung dari keluarga Rhipiduridae, dari genus Rhipidura. Burung ini merupakan jenis burung pemakan serangga dan memiliki habitat di daerah terbuka, hutan sekunder, hutan mangrove, pekarangan. tersebar sampai ketinggian 1.500 mdpl.",
     en: "Kipasan belang (Latin name: Rhipidura javanica) is a bird species from the Rhipiduridae family, belonging to the genus Rhipidura. This bird is an insect-eating species and inhabits open areas, secondary forests, mangroves, and yards. It is distributed up to an altitude of 1,500 meters above sea level",
   },
   {
@@ -140,22 +140,22 @@ export const data = [
     name: "Hutan Mangrove",
     category: "place",
     image: mangrove,
-    id: "Kawasan Suaka Margasatwa  Muara Angke di Jakarta Utara yang memilik luas 25,02 hektare merupakan suaka margasatwa ekosistem Mangrove",
+    id: "Kawasan Suaka Margasatwa  Muara Angke di Jakarta Utara yang memilik luas 25,02 hektar merupakan suaka margasatwa ekosistem Mangrove",
     en: "The Muara Angke Wildlife Reserve in North Jakarta, covering an area of 25.02 hectares, is a wildlife sanctuary that primarily focuses on the Mangrove ecosystem.",
   },
   {
     name: "Kebun Binatang Ragunan",
     category: "place",
     image: ragunan,
-    id: "Taman Margasatwa Ragunan atau juga disebut Kebun Binatang Ragunan adalah sebuah kebun binatang yang terletak di daerah Ragunan, Pasar Minggu, Jakarta Selatan. Kebun binatang seluas 140 hektare ini didirikan pada tahun 1864.",
+    id: "Taman Margasatwa Ragunan atau juga disebut Kebun Binatang Ragunan adalah sebuah kebun binatang yang terletak di daerah Ragunan, Pasar Minggu, Jakarta Selatan. Kebun binatang seluas 140 hektar ini didirikan pada tahun 1864.",
     en: "Taman Margasatwa Ragunan, also known as Ragunan Zoo, is a zoological garden located in the Ragunan area of Pasar Minggu, South Jakarta. Covering an impressive 140 hectares, this zoo was established in 1864",
   },
   {
     name: "Arak Arakan",
     category: "culture",
     image: arakArakan,
-    id: "Adalah iring2an pada suatu festifal tari atau festifal budaya. Untuk Betawi arak Arakan diadakan pada suatu hajatan, iring iringan itu ada Ondel-ondel, hiasan kembang kelapa, ada kalanya ada hari topeng dan iringan musik Tanjidor. Indonesia kaya akan budaya. Dari daerah lain selain Betawi pun arak arakannya disesuaikan dengan unsur unsur budaya setempat.",
-    en: "Arak-Arakan refers to a procession or parade during a dance festival or cultural event. In the context of Betawi culture, arak-arakan typically takes place during celebrations such as weddings or circumcision ceremonies. This lively procession features several distinctive Betawi elements such as: Ondel-Ondel, Coconut Flower Decoration, Masked Performances, and Tanjidor Music. Indonesia Indeed boasts a rich cultural heritage, and each region adapts its arak-arakan to reflect local cultural elements. Whether in Betawi or other regions, these processions celebrate diversity and the beauty og our cultural heritage.",
+    id: "Adalah iring2an pada suatu festival tari atau festival budaya. Untuk Betawi arak Arakan diadakan pada suatu hajatan, iring iringan itu ada Ondel-ondel, hiasan kembang kelapa, ada kalanya ada hari topeng dan iringan musik Tanjidor. Indonesia kaya akan budaya. Dari daerah lain selain Betawi pun arak arakannya disesuaikan dengan unsur unsur budaya setempat.",
+    en: "Arak-Arakan refers to a procession or parade during a dance festival or cultural event. In the context of Betawi culture, arak-arakan typically takes place during celebrations such as weddings or circumcision ceremonies. This lively procession features several distinctive Betawi elements such as: Ondel-Ondel, Coconut Flower Decoration, Masked Performances, and Tanjidor Music. Indonesia Indeed boasts a rich cultural heritage, and each region adapts its arak-arakan to reflect local cultural elements. Whether in Betawi or other regions, these processions celebrate diversity and the beauty of our cultural heritage.",
   },
   {
     name: "Urban Jakarta",
@@ -176,7 +176,7 @@ export const data = [
     category: "transportation",
     image: sado,
     id: "Kendaraan yang ditarik kuda dan memiliki dua roda",
-    en: "",
+    en: "Sado, also known as dos-à-dos carriages, is a type of horse-drawn vehicle. The term “sado” originates from the French phrase “dos-à-dos,” which means “back-to-back.” In Indonesia, sado is a traditional carriage equipped with a cart and two wheels, primarily pulled by horses. Sado carriages first came into use around 1897.",
   },
   {
     name: "Bajaj",
@@ -190,14 +190,14 @@ export const data = [
     category: "culture",
     image: tariTopeng,
     id: "Tari Topeng Betawi adalah sebuah bentuk teater tari dan drama masyarakat Betawi di Jakarta. Drama tari ini meliputi tari, musik, bebodoran (komedi) dan lakon (drama)",
-    en: "",
+    en: "Tari Topeng Betawi, also known as the Betawi mask dance, is a captivating theatrical form that combines dance, music, comedy (bebodoran), and drama (lakon). Originating from the Betawi community in Jakarta, Indonesia, this dance-drama weaves together various artistic elements to depict Betawi society’s life and cultural expressions.",
   },
   {
     name: "Tanjidor",
     category: "culture",
     image: tanjidor,
     id: "Tanjidor Adalah kesenian Betawi berbentuk Orkes. Biasa ada di acara pesta besar Ibu Kota di panggung ataupun sebagai musik pengiring arak arakan pengantin, sunatan, dll.",
-    en: "",
+    en: "Tanjidor, also known as the Betawi brass band, is a traditional Betawi art form in the form of an orchestra. Typically, Tanjidor is present at major events in the capital city, both on stage and as the musical accompaniment for processions such as weddings, circumcisions, and other celebrations. This art form has a long historical lineage and has been an integral part of Betawi culture since the 19th century.",
   },
 ];
 
