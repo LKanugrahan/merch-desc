@@ -2,6 +2,16 @@ import gigiBalang from "@/assets/gigiBalang.jpg";
 import ondelOndel from "@/assets/ondelOndel.jpg";
 import abangNone from "@/assets/abangNone.jpg";
 import kembangKelapa from "@/assets/kembangKelapa.jpg";
+import batikPucukRebung from "@/assets/batikPucukRebung.jpg";
+import bungaTelang from "@/assets/bungaTelang.jpg";
+import kembangKerakNasi from "@/assets/kembangKerakNasi.jpg";
+import kembangNonaMakanSirih from "@/assets/kembangNonaMakanSirih.jpg";
+import melatiGambir from "@/assets/melatiGambir.jpg";
+import kembangSepatu from "@/assets/kembangSepatu.jpg";
+import flamboyan from "@/assets/flamboyan.jpg";
+import burungKipasanBelang from "@/assets/burungKipasanBelang.jpg";
+import elangBondol from "@/assets/elangBondol.jpg";
+import bulus from "@/assets/bulus.jpg";
 export const data = [
   {
     name: "Gigi Balang",
@@ -27,6 +37,65 @@ export const data = [
     id: "Kembang kelapa tak hanya sebagai aksesoris kepala ondel-ondel, tapi juga kerap dijadikan dekorasi. Mulai dari atraksi pariwisata, pentas seni budaya hingga acara-acara seperti ngarak penganten dan khitanan. Kembang Kelapa  mempunyai makna filosofis amat mulia. Bahwa semestinya manusia itu berguna sebagaimana pohon kelapa. Warna-warni kembang kelapa sendiri sebagai simbol dari masyarakat Betawi yang terbuka dan menghargai perbedaan.",
     en: "",
   },
+  {
+    name: "Batik Pucuk Rebung",
+    image: batikPucukRebung,
+    id: "Salah satu kebudayaan Betawi adalah adanya motif batik yang khas. Salah satunya adalah motif PUCUK REBUNG (Tunas bambu) melambangkan harapan baik sebab bambu merupakan pohon yang tidak mudah rebah oleh tiupan angin kencang sekalipun.",
+    en: "",
+  },
+  {
+    name: "Bunga Telang",
+    image: bungaTelang,
+    id: "Tak cuma cantik, bunga-bunga khas Jakarta juga memiliki manfaat kesehatan.",
+    en: "",
+  },
+  {
+    name: "Kembang Kerak Nasi",
+    image: kembangKerakNasi,
+    id: "Bunga berwarna putih kecil berkelompok ini bermanfaat mengatasi pegal linu.",
+    en: "",
+  },
+  {
+    name: "Bunga Nona Makan Sirih",
+    image: kembangNonaMakanSirih,
+    id: "Bagi Anda yang ingin melancarkan buang air kecil si bunga berwarna putih dengan putik merah ini mampu membantu.",
+    en: "",
+  },
+  {
+    name: "Kembang Melati Gambir",
+    image: melatiGambir,
+    id: "Bunga berwarna putih kecil ini mampu dimanfaatkan sebagai obat sariawan dan penyegar wajah alami.",
+    en: "",
+  },
+  {
+    name: "Kembang Sepatu",
+    image: kembangSepatu,
+    id: "Bunga bernama latin Hibiscus rosa-sinensis ini bermanfaat untuk mengatasi demam.",
+    en: "",
+  },
+  {
+    name: "Flamboyan",
+    image: flamboyan,
+    id: "Flamboyan adalah bunga yang tumbuh dengan memiliki batang pohon yang besar dan bunga berwarna merah cerah.",
+    en: "",
+  },
+  {
+    name: "Burung Kipasan Belang",
+    image: burungKipasanBelang,
+    id: "Kipasan belang adalah spesies burung dari keluarga Rhipiduridae, dari genus Rhipidura. Burung ini merupakan jenis burung pemakan serangg dan memiliki habitat di daerah terbuka, hutan sekunder, hutan mangrove, pekarangan. tersebar sampai ketinggian 1.500m dpl. ",
+    en: "",
+  },
+  {
+    name: "Elang Bondol",
+    image: elangBondol,
+    id: "Elang Bondol termasuk jenis satwa langka yang penyebarannya di DKI Jakarta terbatas di Kabupaten Kepulauan Seribu.",
+    en: "",
+  },  {
+    name: "Bulus",
+    image: bulus,
+    id: "Habitatnya di sungai Ciliwung",
+    en: "",
+  },
 ];
 
-export const languageData=['id','en']
+export const languageData = ["id", "en"];
