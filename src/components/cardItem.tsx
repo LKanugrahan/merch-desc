@@ -10,13 +10,13 @@ handleName:(text:string)=>void
 const CardItem = ({data,handleName}:Props) => {
   return (
     <Card
-    className="flex flex-row sm:flex-col gap-2 sm:justify-center items-center w-full sm:w-44 sm:h-44 p-2"
+    className="flex flex-col sm:flex-col gap-2 sm:justify-center items-center w-full sm:w-64 sm:h-64 p-2"
     onClick={() => handleName(data.name)}
   >
     <Image
       src={data.image}
       alt={data.name}
-      className="object-contain w-20 sm:w-40 h-20 sm:h-40"
+      className="object-contain w-40 sm:w-64 h-40 sm:h-64"
     />
     <Typography className="font-poppins font-semibold text-lg text-black">
       {data.name}
