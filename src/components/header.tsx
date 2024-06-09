@@ -26,10 +26,11 @@ const Header = ({ language, setLanguage }: Props) => {
           ? "Aspiration, Determination, and Creation from Within, Rooted in Indonesian Culture"
           : "Asa, Karsa, Karya dari dalam diri yang berbudaya Indonesia"}
       </Typography>
-      <Menu placement="right-start">
-        <MenuHandler className='sm:!absolute top-0 sm:-right-10 xl:right-0 p-0 rounded-full bg-transparent'>
+      <Menu placement="bottom-end">
+        <MenuHandler className='sm:!absolute top-0 sm:-right-10 xl:right-0 p-0 bg-transparent flex gap-1 shadow-none hover:shadow-none'>
           <Button>
             <FiGlobe size={30} color="black" />
+            <Typography className="font-poppins font-semibold text-black text-xl text-center uppercase">{language}</Typography>
           </Button>
         </MenuHandler>
         <MenuList className="w-fit min-w-fit p-0 bg-transparent border-none shadow-none">

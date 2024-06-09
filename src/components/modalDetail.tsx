@@ -22,7 +22,7 @@ const ModalDetail = ({ name, handleName, data, language }: Props) => {
       size="lg"
       open={name === data.name}
       handler={handleName}
-      className=" absolute sm:relative bottom-0 sm:p-4 pb-10 pt-4 px-4 w-screen sm:w-fit max-w-full h-3/4 sm:h-fit m-0 rounded-none sm:rounded-2xl"
+      className=" absolute sm:relative bottom-0 sm:p-4 pb-10 pt-4 px-4 w-screen sm:w-fit max-w-full h-screen sm:h-fit m-0 rounded-none sm:rounded-2xl"
       dismiss={{ enabled: false }}
       animate={{ mount: { y: 0 }, unmount: { y: 100 } }}
     >
@@ -41,9 +41,9 @@ const ModalDetail = ({ name, handleName, data, language }: Props) => {
         <Image
           src={data.image}
           alt={data.name}
-          className="object-contain w-64 lg:w-96"
+          className="object-contain w-72 lg:w-96"
         />
-        <div className="overflow-auto h-56 sm:h-fit p-2">
+        <div className="overflow-auto h-96 sm:h-fit p-2">
           <Typography className="font-poppins font-normal text-base text-black text-justify">
             {language === "en" ? data.en : data.id}
           </Typography>
